@@ -41,6 +41,19 @@ button {
   border-radius: 8px;
   padding: 1rem;
 }
+
+#issues-list {
+  display: grid;
+  gap: 1rem;
+}
+.issue-card button {
+  margin-top: 0.75rem;
+}
+#form-message {
+  min-height: 1.25rem;
+  font-weight: 600;
+}
+
 @media (max-width: 760px) {
   .container {
     grid-template-columns: 1fr;

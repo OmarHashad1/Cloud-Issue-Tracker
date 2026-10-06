@@ -29,7 +29,7 @@ ${issue.status}`;
     issuesList.append(card);
   });
 }
-
+console.log(1);
 issueForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const newIssue = {
@@ -54,6 +54,6 @@ function toggleIssueStatus(issueId) {
     return;
   }
   issue.status = issue.status === "Open" ? "Resolved" : "Open";
-
   renderIssues();
 }
+renderIssues();
