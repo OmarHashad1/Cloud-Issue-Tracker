@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ISS-102",
+    "title": "Projector flickering in Room 304",
+    "description": "Screen intermittently blacks out during lectures.",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-09-02T10:15:00.000Z"
+  },
+  {
+    "id": "ISS-103",
+    "title": "Software license expired",
+    "description": "CAD software throws activation errors on library computers.",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-09-03T14:30:00.000Z"
+  },
+  {
+    "id": "ISS-104",
+    "title": "Printer paper jam",
+    "description": "Main office printer is offline due to a persistent paper jam.",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-09-04T08:45:00.000Z"
+  }
+]
