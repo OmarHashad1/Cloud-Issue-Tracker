@@ -1,7 +1,9 @@
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from "url";
 import { randomUUID } from "crypto";
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ISSUES_DATA_PATH = path.join(__dirname, "..", "data", "issues.json");
 
 export async function readIssues() {
@@ -14,7 +16,7 @@ export async function readIssues() {
   }
 }
 
-export async function writeIssue(issues) {
+export async function writeIssues(issues) {
   await fs.writeFile(ISSUES_DATA_PATH, JSON.stringify(issues, null, 2));
 }
 
